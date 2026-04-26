@@ -13,3 +13,16 @@ You can change the colors of the dominoes and the size of the holey rectangle, $
 ## Number of tilings
 
 Given a $m \times n$ holey rectangle the number of tilings is: 
+
+$(F_{n-1}F_{m-1} + F_{n-2}F_{m-2} + F_{n-3}F_{m-3})^2 + 2(1+(-1)^{n+m+1})$.
+
+The case when $n=m$ (a holey square) was proved by Roberto Tauraso in 2004, I give a proof of the general case in my thesis.
+
+![A domino tiling of a 7x8 holey rectangle](7x8.PNG)
+
+## Further reading
+
+[A New Domino Tiling Sequence](https://cs.uwaterloo.ca/journals/JIS/VOL7/Tauraso/tauraso3.html) - Proof by Roberto Tauraso.\
+[Enumeración de teselaciones del diamante azteca y otros tableros](https://tesiunamdocumentos.dgb.unam.mx/ptd2026/ene_mar/0883018/Index.html) - My thesis (in Spanish).
+
+
